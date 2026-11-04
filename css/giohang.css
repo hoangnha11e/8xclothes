@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.tieude {
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    gap: 20px;
+}
+.tieude::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: black;
+}
+.tieude::before {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: black;
+}
+.sanphamgio {
+    display: flex;
+    justify-content: space-between;
+}
+.sanphamgio .left {
+    flex: 7;
+}
+.sanphamgio .left img {
+    width: 300px;
+}
+.sanphamgio .left {
+    flex: 3;
+    display: flex;
+}
+.sanphamgio .left .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.giohang {
+    padding: 20px;
+    padding-top: 0px;
+}
+.giohang .den {
+    background-color: black;
+    border: 1px solid black;
+}
+.giohang .trang {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.giohang .left-text-mskc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 17px;
+}
+.giohang .left-text-mskc div {
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    margin-right: 5px;
+}
+.giohang .left-text-mskc div:first-child {
+    width: 15px;
+    height: 15px;
+}
+.giohang .left-text-mskc div:nth-child(2) {
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+}
+.giohang .left-text-mskc div:nth-child(3) {
+    font-size: 20px;
+}
+.giohang .left-text-top {
+    margin-left: 10px;
+}
+.giohang .left-text-bottom {
+    margin-left: 10px;
+}
+.chotdon {
+    padding: 20px;
+}
+.chotdon div:first-child {
+    display:flex ;
+    justify-content: space-between;
+}
+.chotdon button {
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.chotdon div:nth-child(2) {
+    text-align: center;
+    margin-top: 50px;
+}
+.chotdon button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

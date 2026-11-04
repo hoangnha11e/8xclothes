@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.chitietsanpham {
+    display: flex;
+}
+.chitietsanpham .left {
+    flex: 6;
+}
+.chitietsanpham .right {
+    flex: 4;
+}
+.chitietsanpham .left img {
+    width: 100%;
+}
+.chitietsanpham .left-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.chono {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}.chono span {
+    border: 1px solid black;
+    padding: 3px;
+}
+.chono div {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.chono span:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+.chono div:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+.chono span:focus {
+    border: 2px solid red;
+}
+.chono div:focus {
+    border: 2px solid red;
+}
+.chitietsanpham .right > div {
+    margin: 30px;
+    margin-left: 50px;
+}
+.chonso {
+    display: flex;
+    margin-top: 7px;
+}
+.chonso * {
+    margin: 0;
+}
+.chonso div div {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    border-left: 0;
+}
+.chonso div div:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+.chonso div div:first-child {
+    border-bottom: 0;
+}
+.chonso div div:first-child:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+.chonso input {
+    width: 60px;
+    outline: 0;
+    text-align: center;
+}
+.themvaogio input {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+.themvaogio input:hover {
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.mota * {
+    margin-bottom: 3px;
+}
+.mota h1 {
+    margin-bottom: 7px;
+}

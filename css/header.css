@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    background-color: #ccc;
+    padding: 10px;
+    justify-content: space-between;
+}
+header a, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header li {
+    list-style: none;
+}
+header a {
+    flex-direction: column;
+}
+#tmn {
+    width: 50px;
+}
+#logo {
+    width: 60px;
+    position: relative;
+    left: 30px;
+}
+#adn {
+    width: 50px;
+}
+#agh {
+    width: 53px;
+    position: relative;
+    right: 5px;
+}
+header div li:first-child {
+    position: absolute;
+    right: 80px;
+}
+.menu {
+    background-color: white;
+    width: 140px;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    padding: 10px;
+    border: 1px solid black;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 9999;
+}
+.menu li, a {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.menu span {
+    font-weight: bold;
+    font-size: 16px;
+}
+.menu ul {
+    padding-left: 20px;
+}
+#atmn {
+    position: absolute;
+    left: 0px;
+    padding: 30px 0px;
+    padding-left: 10px;
+}
+#atmn:hover ~ .menu {
+    visibility: visible;
+}
+.menu:hover {
+    visibility: visible;
+}
+li > ul >li > ul > li > a:hover {
+    color: red;
+}

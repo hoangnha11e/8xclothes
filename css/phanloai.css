@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.tieudephanloai {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 20px 4% 10px 4.4%;
+    margin: 50px 0px;
+}
+.tieudephanloai input {
+    border: 2px solid #c2c2c2;
+    padding: 5px;
+    outline: none;
+    width: 15%;
+}
+.tieudephanloai span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.tieudephanloai img {
+    width: 18px;
+    position: absolute;
+    top: 28px;
+    right: 4.4%;
+    cursor: pointer;
+}
+.cacsanpham {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sanpham {
+    margin-bottom: 30px;
+}
