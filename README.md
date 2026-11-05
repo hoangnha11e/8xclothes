@@ -1,5 +1,3 @@
-# 8XCLOTHES
-
 A project to develop an online clothing store, including features such as login, category management, product management, order management, and report management. Some features have been completed, while others are still incomplete.
 
 Below are some previews of the website in operation:
