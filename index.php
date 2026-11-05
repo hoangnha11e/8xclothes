@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>8XCLOTHES</title>
         <link rel="stylesheet" href="css/index.css">
     </head>

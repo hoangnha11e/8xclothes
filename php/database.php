@@ -18,6 +18,7 @@ class Database {
             $this->error = "Connection fail".$this->link->connect_error;
             return false;
         }
+        $this->link->set_charset("utf8mb4");
     }
     public function select($query) {
         $result = $this->link->query($query) or die($this->link->error.__LINE__);
